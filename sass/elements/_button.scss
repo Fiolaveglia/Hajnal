@@ -6,19 +6,24 @@
     margin-top: 30px;
 }
 .btn {
-    border-radius: 0;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
     font-family: var(--ltn__heading-font);
-    padding: 17px 40px;
     text-align: center;
+    padding: 10px 25px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     position: relative;
     z-index: 1;
     margin-right: 15px;
-    &:last-child {
+    &:last-child 
+{
         margin-right: 0;
     }
 }
@@ -43,11 +48,49 @@
     border: 2px solid var(--border-color-9);
     &:hover{
         background-color: var(--ltn__secondary-color);
-        border-color: var(--ltn__secondary-color);
         color: var(--white);
     }
 }
-.reverse-color{
+.theme-btn-4 {
+    height: 3px;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 12px;
+    width: 100px;
+    text-align: left;
+    background-color: var(--ltn__color-6);
+    color: var(--white);
+
+    &:hover {
+        background-color: var(--ltn__secondary-color-3);
+        color: var(--white);
+    }
+}
+
+.theme-btn-5 {
+    position: absolute;
+    right: 0;
+    background-color: var(--ltn__btnwp-color);
+    color: var(--white);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+
+
+    &:hover {
+        background-color: var(--ltn__secondary-color-3);
+        color: var(--white);
+    }
+
+
+.vtas-btn{
+    padding: 10px;
+    font-size: 20px;
+}     
+
+}.reverse-color{
     background-color: var(--ltn__secondary-color);
     &:hover{
         background-color:  var(--ltn__primary-color);

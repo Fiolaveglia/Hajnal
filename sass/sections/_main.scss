@@ -53,6 +53,13 @@
 /* ----------------------------------------------------
     Common CSS
 ---------------------------------------------------- */
+.ltn_access {
+    li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 30px 0 0;
+    }
+}
 .ltn__social-media {
     ul {
         margin: 0;

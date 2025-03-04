@@ -41,7 +41,9 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.flaticon-arrow-up-right:before {
+  content: "\e900";  
+}
 .flaticon-add-to-cart:before {
     content: "\f101";
 }

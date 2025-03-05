@@ -244,7 +244,7 @@ font-family: 'Satoshi', sans-serif;
   --gradient-color-5: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 70%);
   /* Background Colors ( 1, 2, 3, 4, 5 )  */
   --section-bg-1: #F2F6F7; /* White */
-  --section-bg-2: #171B2A; /* Black */
+  --section-bg-2: #0e3ed1; /* Blue */
   --section-bg-5: #FFF2F0; /* White */
   --section-bg-6: #0B2C3D; /* Black */
   --section-bg-7: #282b38; /* Black */
@@ -16865,6 +16865,22 @@ input.cart-plus-minus-box {
 .theme-btn-5 .vtas-btn {
   padding: 10px;
   font-size: 20px;
+}
+
+.theme-btn-ig {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.theme-btn-ig i.fa-instagram {
+  color: var(--ltn__secondary-color) !important;
+  padding: 5px 7px;
 }
 
 .reverse-color {

@@ -88,9 +88,25 @@
 .vtas-btn{
     padding: 10px;
     font-size: 20px;
-}     
+} 
+}
 
-}.reverse-color{
+.theme-btn-ig {
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+    i.fa-instagram {
+        color: var(--ltn__secondary-color) !important;
+        padding: 5px 7px ;
+    }
+}
+
+.reverse-color{
     background-color: var(--ltn__secondary-color);
     &:hover{
         background-color:  var(--ltn__primary-color);

@@ -1,3 +1,23 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/hajnal_fonts/Satoshi-Variable.ttf");
+}
+@font-face {
+  font-family: "HostGrotesk Bold";
+  src: url("/fonts/hajnal_fonts/HostGrotesk-Bold.ttf");
+}
+@font-face {
+  font-family: "HostGrotesk Regular";
+  src: url("/fonts/hajnal_fonts/HostGrotesk-Regular.ttf");
+}
+@font-face {
+  font-family: "HostGrotesk SemiBold";
+  src: url("/fonts/hajnal_fonts/HostGrotesk-SemiBold.ttf");
+}
+@font-face {
+  font-family: "MyriadPro";
+  src: url("/fonts/hajnal_fonts/MyriadPro-Regular.otf");
+}
 /* Single side border-radius  */
 /* BORDER RADIUS */
 /* user select */
@@ -45,7 +65,7 @@
 
 ============================================================= */
 /* -------------------------------------
-    Google fonts
+    Fonts
 ------------------------------------- */
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Rajdhani:wght@400;500;600;700&display=swap'); */
 /*
@@ -60,14 +80,6 @@ font-family: 'Titillium Web', sans-serif;
 /*
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
-*/
-@import url("/fonts/hajnal_fonts/Satoshi-Variable.ttf");
-@import url("/fonts/hajnal_fonts/HostGrotesk-Bold.ttf");
-@import url("/fonts/hajnal_fonts/HostGrotesk-Regular.ttf");
-@import url("/fonts/hajnal_fonts/HostGrotesk-SemiBold.ttf");
-@import url("/fonts/hajnal_fonts/MyriadPro-Regular.otf");
-/*
-font-family: 'Satoshi', sans-serif;
 */
 /* ====================================================
     Gutter Code 
@@ -224,11 +236,11 @@ font-family: 'Satoshi', sans-serif;
   --ltn__secondary-color: #2a52cb;
   --ltn__secondary-color-2: #0e3ed1; /* Darken */
   --ltn__secondary-color-3: #657dc3; /* Lighten */
-  --ltn__heading-color: #071c1f;
+  --ltn__heading-color: #000000;
   --ltn__paragraph-color: #5C727D;
   --ltn__btnwp-color: #25D366;
-  --ltn__heading-font: "Poppins", sans-serif;
-  --ltn__body-font: "Nunito Sans", sans-serif;
+  --ltn__heading-font: "Satoshi", sans-serif;
+  --ltn__body-font: "HostGrotesk Regular", sans-serif;
   /* Footer ACD2D8 8CB2B2  */
   --ltn__color-1: #8cb2b2;
   --ltn__color-2: #ACD2D8;
@@ -4966,7 +4978,6 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   display: inline-block;
   white-space: nowrap;
   color: var(--ltn__heading-color);
-  font-weight: 600;
   font-family: var(--ltn__body-font);
 }
 
@@ -6018,9 +6029,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       align-self: center;
 }
 .special-link a {
+  border-radius: 50px !important;
+  -webkit-border-radius: 50px !important;
+  -moz-border-radius: 50px !important;
+  -ms-border-radius: 50px !important;
+  -o-border-radius: 50px !important;
   background-color: var(--ltn__secondary-color);
   color: var(--white) !important;
-  padding: 12px 30px !important;
+  padding: 5px 15px !important;
 }
 .special-link a:hover {
   background-color: var(--section-bg-1);

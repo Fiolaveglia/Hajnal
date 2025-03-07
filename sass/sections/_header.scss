@@ -248,7 +248,6 @@
     display: inline-block;
     white-space: nowrap;
     color: var(--ltn__heading-color);
-    font-weight: 600;
     font-family: var(--ltn__body-font);
 }
 .ltn__main-menu li:hover > a {
@@ -1207,11 +1206,20 @@
 .special-link {
     margin-left: 15px;
     align-self: center;
-    a {
+    
+    
+    a{
+        border-radius: 50px !important;
+        -webkit-border-radius: 50px !important;
+        -moz-border-radius: 50px !important;
+        -ms-border-radius: 50px !important;
+        -o-border-radius: 50px !important;
         background-color: var(--ltn__secondary-color);
         color: var(--white) !important;
-        padding: 12px 30px !important;
-        &:hover {
+        padding: 5px 15px!important;
+
+
+        &:hover{
             background-color: var(--section-bg-1);
             color: var(--ltn__primary-color) !important;
         }

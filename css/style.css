@@ -237,7 +237,7 @@ font-family: 'Poppins', sans-serif;
   --ltn__secondary-color-2: #0e3ed1; /* Darken */
   --ltn__secondary-color-3: #657dc3; /* Lighten */
   --ltn__heading-color: #000000;
-  --ltn__paragraph-color: #2a52cb;
+  --ltn__paragraph-color: #0a0a0a;
   --ltn__btnwp-color: #25D366;
   --ltn__heading-font: "Satoshi", sans-serif;
   --ltn__body-font: "HostGrotesk Regular", sans-serif;
@@ -472,6 +472,37 @@ ol li {
 /* -------------------------------------
     Custom Class
 ------------------------------------- */
+.img-container {
+  position: relative;
+  width: 100%;
+}
+
+.img-container img {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+  width: auto;
+  max-width: 100%;
+}
+
+#contact {
+  margin-top: 650px;
+}
+
+p.h3-text {
+  font-size: 36px;
+  line-height: 1.2;
+  width: 65%;
+  margin-left: 45px;
+}
+
+h2.h2-text {
+  font-size: 55px;
+}
+
 .section-bg-1 {
   background-color: var(--section-bg-1);
 }
@@ -2665,6 +2696,10 @@ ul {
 /* ----------------------------------------------------
     Custom margin Padding
 ---------------------------------------------------- */
+.mr-xxl {
+  margin-right: 215px;
+}
+
 .mr-30 {
   margin-right: 30px;
 }
@@ -7459,6 +7494,15 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   font-size: 120px;
   line-height: 1;
 }
+.ltn__slide-item-6 .h2-text {
+  width: 45%;
+  margin-top: 40px;
+}
+.ltn__slide-item-6 .h2-agro {
+  font-size: 32px;
+  margin-top: 40px;
+  width: 45%;
+}
 .ltn__slide-item-6 span.slide-span {
   font-family: "HostGrotesk Regular" !important;
   font-size: 120px;
@@ -9991,6 +10035,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .section-title-area p {
   margin-bottom: 0;
   max-width: 60%;
+  color: var(--ltn__secondary-color);
 }
 .section-title-area p + p {
   margin-top: 15px;
@@ -16886,12 +16931,12 @@ input.cart-plus-minus-box {
   -o-border-radius: 50px;
 }
 .theme-btn-5:hover {
-  background-color: var(--ltn__secondary-color-3);
+  background-color: var(--ltn__primary-color);
   color: var(--white);
 }
 .theme-btn-5 .vtas-btn {
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .theme-btn-ig {
@@ -16908,6 +16953,10 @@ input.cart-plus-minus-box {
 .theme-btn-ig i.fa-instagram {
   color: var(--ltn__secondary-color) !important;
   padding: 5px 7px;
+}
+.theme-btn-ig:hover {
+  background-color: var(--ltn__primary-color);
+  color: var(--white);
 }
 
 .reverse-color {

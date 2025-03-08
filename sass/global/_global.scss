@@ -231,7 +231,7 @@ font-family: 'Poppins', sans-serif;
     --ltn__secondary-color-2: #0e3ed1; /* Darken */
     --ltn__secondary-color-3: #657dc3; /* Lighten */
     --ltn__heading-color: #000000;
-    --ltn__paragraph-color: #2a52cb;
+    --ltn__paragraph-color: #0a0a0a;
     --ltn__btnwp-color: #25D366;
     
     --ltn__heading-font: 'Satoshi', sans-serif;
@@ -461,6 +461,31 @@ ol li {
 /* -------------------------------------
     Custom Class
 ------------------------------------- */
+.img-container {
+    position: relative;
+    width: 100%;
+}
+.img-container img {
+    position: absolute;
+    top: -60px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 2;
+    width: auto; 
+    max-width: 100%;
+}
+#contact {
+    margin-top: 650px;
+}
+p.h3-text{
+    font-size: 36px;
+    line-height: 1.2;
+    width: 65%;
+    margin-left: 45px;
+}
+h2.h2-text {
+    font-size: 55px;
+}
 .section-bg-1 {
     background-color: var(--section-bg-1);
     .ltn__separate-line .separate-icon {
@@ -1950,6 +1975,9 @@ ul {
 /* ----------------------------------------------------
     Custom margin Padding
 ---------------------------------------------------- */
+.mr-xxl {
+    margin-right: 215px;
+}
 .mr-30 {
     margin-right: 30px;
 }

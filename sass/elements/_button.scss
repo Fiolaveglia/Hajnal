@@ -80,14 +80,14 @@
 
 
     &:hover {
-        background-color: var(--ltn__secondary-color-3);
+        background-color: var(--ltn__primary-color);
         color: var(--white);
     }
 
 
 .vtas-btn{
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
 } 
 }
 
@@ -103,6 +103,11 @@
     i.fa-instagram {
         color: var(--ltn__secondary-color) !important;
         padding: 5px 7px ;
+    }
+
+    &:hover {
+        background-color: var(--ltn__primary-color);
+        color: var(--white);
     }
 }
 

@@ -179,9 +179,12 @@
         font-size: 140px;
         line-height: 1;
         margin-bottom: 20px;
-        span {
-            color: var(--ltn__secondary-color);
+        span.slide-span{
+            font-family: 'HostGrotesk Regular' !important;
+            font-size: 120px;
+            font-weight: 400;
         }
+    
     }
     .btn-wrapper {
         margin-top: 40px;
@@ -441,8 +444,13 @@
         max-width: 100%;
     }
     .slide-title {
-        font-size: 80px;
+        font-size: 120px;
         line-height: 1;
+    }
+    span.slide-span{
+        font-family: 'HostGrotesk Regular' !important;
+        font-size: 120px;
+        font-weight: 400;
     }
 }
 

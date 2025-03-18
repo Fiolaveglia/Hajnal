@@ -5347,6 +5347,7 @@ input.cart-plus-minus-box {
     margin: 10px 0;
     img {
         transition: all 0.3s ease 0s;
+        width: 160px;
     }
     &:hover {
         -webkit-filter: grayscale(0);

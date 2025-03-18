@@ -15125,6 +15125,7 @@ input.cart-plus-minus-box {
 .ltn__brand-logo-item img {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  width: 160px;
 }
 .ltn__brand-logo-item:hover {
   -webkit-filter: grayscale(0);

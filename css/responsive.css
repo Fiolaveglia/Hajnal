@@ -55,7 +55,7 @@
         font-size: 16px;
     }
     h6 {
-        font-size: 15px;
+        font-size: 16px;
     }
     p {
         font-size: 14px;
@@ -86,10 +86,13 @@
         font-size: 16px;
     }
     h6 {
-        font-size: 14px;
+        font-size: 16px;
     }
     p {
         font-size: 14px;
+    }
+    p.h3-text {
+        font-size: 24px;
     }
 
 }

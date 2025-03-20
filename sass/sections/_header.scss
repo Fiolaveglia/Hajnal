@@ -1022,6 +1022,10 @@
         transform: translateX(50%);
         right: 50%;
     }
+    .site-logo a img {
+        height: 40px;
+        margin-left: 40px;
+    }
 }
 @media (max-width: 575px) {
     .header-search-1-form {

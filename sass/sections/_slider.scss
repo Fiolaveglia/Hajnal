@@ -1117,39 +1117,15 @@
     }
     .ltn__slide-item-6 {
         .slide-title {
-            font-size: 30px;
+            font-size: 55px;
         }
     }
-    
-
-}
-
-/* Slide Image Show Only Mobile Device */
-/*
-.ltn__slide-item-9-img {
-    display: none;
-}
-@media (max-width: 767px) { 
-    .ltn__slide-item-9 .ltn__slide-item-inner {
-        display: none; 
+    .slide-span{
+        font-size: 60px !important;
     }
-    .ltn__slide-item-9 {
-        height: auto;
-    }
-    .ltn__slide-item-9.bg-image {
-        background-size: contain;
-        background: none !important;
-    }
-    .ltn__slide-item-9-img {
-        display: block;
-    }
-    .ltn__slider-area .slick-slide-dots-1 .slick-dots {
-        bottom: 20px;
+    h2.h2-agro {
+        width: 100% !important;
     }
 
 }
-*/
- 
-/* ----------------------------------------------------
-    END
----------------------------------------------------- */
+

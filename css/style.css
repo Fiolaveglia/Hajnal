@@ -5881,6 +5881,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
             transform: translateX(50%);
     right: 50%;
   }
+  .site-logo a img {
+    height: 40px;
+    margin-left: 40px;
+  }
 }
 @media (max-width: 575px) {
   .header-search-1-form {
@@ -8125,37 +8129,15 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     display: none;
   }
   .ltn__slide-item-6 .slide-title {
-    font-size: 30px;
+    font-size: 55px;
+  }
+  .slide-span {
+    font-size: 60px !important;
+  }
+  h2.h2-agro {
+    width: 100% !important;
   }
 }
-/* Slide Image Show Only Mobile Device */
-/*
-.ltn__slide-item-9-img {
-    display: none;
-}
-@media (max-width: 767px) { 
-    .ltn__slide-item-9 .ltn__slide-item-inner {
-        display: none; 
-    }
-    .ltn__slide-item-9 {
-        height: auto;
-    }
-    .ltn__slide-item-9.bg-image {
-        background-size: contain;
-        background: none !important;
-    }
-    .ltn__slide-item-9-img {
-        display: block;
-    }
-    .ltn__slider-area .slick-slide-dots-1 .slick-dots {
-        bottom: 20px;
-    }
-
-}
-*/
-/* ----------------------------------------------------
-    END
----------------------------------------------------- */
 /* ----------------------------------------------------
     Product Area
 ---------------------------------------------------- */
@@ -10220,7 +10202,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 @media (max-width: 991px) {
   .section-title {
-    font-size: 26px;
+    font-size: 30px;
   }
   .ltn__section-title-2 .section-title {
     font-size: 40px;
@@ -10256,10 +10238,19 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .title-2 {
     font-size: 22px;
   }
+  .h2-text {
+    font-size: 40px !important;
+  }
+  .section-title-area p {
+    max-width: 100%;
+  }
+  #contact {
+    margin-top: 140px;
+  }
 }
 @media (max-width: 575px) {
   .section-title {
-    font-size: 24px;
+    font-size: 30px;
   }
   .ltn__section-title-2 .section-title {
     font-size: 24px;
@@ -16536,88 +16527,6 @@ input.cart-plus-minus-box {
 }
 
 /* ----------------------------------------------------
-    Footer Newsletter Widget
----------------------------------------------------- */
-.footer-newsletter form {
-  position: relative;
-}
-.footer-newsletter input[type=email] {
-  margin: 0;
-  padding-right: 50px;
-}
-.footer-newsletter .btn-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 0;
-  height: 100%;
-}
-.footer-newsletter .btn-wrapper .btn {
-  padding: 0 18px;
-  height: 100%;
-}
-
-/* ----------------------------------------------------
-    Footer Timeline Widget
----------------------------------------------------- */
-.ltn__footer-timeline-widget {
-  padding: 50px 50px 40px;
-  border-bottom: 5px solid;
-  border-color: var(--border-color-5);
-  margin-top: -92px;
-}
-.ltn__footer-timeline-widget .footer-title {
-  font-size: 36px;
-}
-.ltn__footer-timeline-widget ul {
-  margin: 0;
-  padding: 0;
-}
-.ltn__footer-timeline-widget ul li {
-  list-style: none;
-  font-family: var(--ltn__heading-font);
-  font-weight: 700;
-  border-bottom: 1px solid;
-  border-color: var(--border-color-6);
-  padding-bottom: 10px;
-  margin-top: 10px;
-}
-.ltn__footer-timeline-widget ul li:last-child {
-  border-bottom: 0;
-  padding-bottom: 0;
-}
-.ltn__footer-timeline-widget ul li:last-child span {
-  font-weight: 700;
-}
-.ltn__footer-timeline-widget ul li span {
-  float: right;
-  font-weight: 600;
-}
-
-/* ----------------------------------------------------
-    Footer Blog Widget
----------------------------------------------------- */
-.ltn__footer-blog-item {
-  border-bottom: 1px solid;
-  border-color: var(--border-color-6);
-  margin-bottom: 20px;
-}
-.ltn__footer-blog-item:last-child {
-  border-bottom: 0;
-  margin-bottom: 0;
-}
-.ltn__footer-blog-item .ltn__blog-meta {
-  margin-bottom: 5px;
-}
-.ltn__footer-blog-item .ltn__blog-meta i {
-  color: var(--ltn__secondary-color);
-  margin-right: 5px;
-}
-.ltn__footer-blog-item .ltn__blog-title {
-  font-size: 20px;
-}
-
-/* ----------------------------------------------------
     Copyright Area
 ---------------------------------------------------- */
 .ltn__copyright-area {
@@ -16655,6 +16564,10 @@ input.cart-plus-minus-box {
 }
 .ltn__copyright-menu ul li a {
   margin: 0;
+}
+
+.ltn__footer-area {
+  padding-top: 60px;
 }
 
 /* ----------------------------------------------------
@@ -16712,6 +16625,12 @@ input.cart-plus-minus-box {
   }
   .ltn__footer-blog-item .ltn__blog-title {
     font-size: 18px;
+  }
+  .ltn__footer-area {
+    padding-top: 100px;
+  }
+  .google.map {
+    margin-bottom: 0 !important;
   }
 }
 @media (max-width: 575px) {

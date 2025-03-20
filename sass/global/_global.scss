@@ -925,7 +925,7 @@ input[type="email"]::-webkit-input-placeholder,
 input[type="password"]::-webkit-input-placeholder, 
 input[type="submit"]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: var(--ltn__paragraph-color);
+    color: var(--ltn__color-1);
     font-size: 12px;
 }
 input[type="text"]:focus, 

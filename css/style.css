@@ -10221,6 +10221,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .ltn__section-title-2 p {
     padding: 0 0 0 15px;
   }
+  .ltn__list-item-2-img li {
+    width: 100% !important;
+  }
   .section-title-style-3 {
     display: block;
   }
@@ -10254,6 +10257,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   }
   .ltn__section-title-2 .section-title {
     font-size: 24px;
+  }
+  .ltn__list-item-2-img li {
+    width: 100% !important;
   }
 }
 /* ----------------------------------------------------

@@ -303,9 +303,9 @@ font-family: 'Poppins', sans-serif;
     --white-8: #FAFAFA; 
     --white-9: #F2F7FA; 
     --white-10: #EDEDED; 
-    --red: #2a52cb;
-    --red-2: #0e3ed1;
-    --red-3: #657dc3;
+    --hblue: #2a52cb;
+    --hblue-2: #0e3ed1;
+    --hblue-3: #657dc3;
     --silver: #C0C0C0;
     --gray: #808080;
     --maroon: #800000;
@@ -849,7 +849,7 @@ fieldset legend {
     color: var(--black) !important;
 }
 .bg-red {
-    background-color: var(--red) !important;
+    background-color: var(--hblue) !important;
     color: var(--white) !important;
 }
 .bg-yellow {
@@ -1440,7 +1440,7 @@ ul {
         }
         &:hover,
         &.slick-active {
-            background-color: var(--ltn__secondary-color);
+            background-color: var(--ltn__color-5);
             height: 15px;
             width: 15px;
             margin-bottom: -2px;

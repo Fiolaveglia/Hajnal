@@ -296,9 +296,9 @@ font-family: 'Poppins', sans-serif;
   --white-8: #FAFAFA;
   --white-9: #F2F7FA;
   --white-10: #EDEDED;
-  --red: #2a52cb;
-  --red-2: #0e3ed1;
-  --red-3: #657dc3;
+  --hblue: #2a52cb;
+  --hblue-2: #0e3ed1;
+  --hblue-3: #657dc3;
   --silver: #C0C0C0;
   --gray: #808080;
   --maroon: #800000;
@@ -939,7 +939,7 @@ fieldset legend {
 }
 
 .bg-red {
-  background-color: var(--red) !important;
+  background-color: var(--hblue) !important;
   color: var(--white) !important;
 }
 
@@ -1582,7 +1582,7 @@ ul {
   display: none;
 }
 .slick-dots li:hover, .slick-dots li.slick-active {
-  background-color: var(--ltn__secondary-color);
+  background-color: var(--ltn__color-5);
   height: 15px;
   width: 15px;
   margin-bottom: -2px;
@@ -4100,7 +4100,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-color: var(--white);
 }
 .ltn__color-widget ul .red {
-  background-color: var(--red);
+  background-color: var(--hblue);
 }
 .ltn__color-widget ul .silver {
   background-color: var(--silver);
@@ -5683,7 +5683,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   transition: all 0.3s ease 0s;
 }
 .mini-cart-item-delete:hover {
-  background-color: var(--red);
+  background-color: var(--hblue);
   color: #fff;
 }
 
@@ -8296,7 +8296,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   display: none;
 }
 .product-badge li .soldout-badge {
-  background-color: var(--red-2);
+  background-color: var(--hblue-2);
 }
 
 .product-info {
@@ -12889,7 +12889,7 @@ blockquote::before {
 }
 
 .form-messege .error {
-  color: var(--red);
+  color: var(--hblue);
 }
 .form-messege .success {
   color: var(--green);

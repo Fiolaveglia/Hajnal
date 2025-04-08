@@ -2919,6 +2919,11 @@ ul {
   height: 700px;
 }
 
+.text-color {
+  color: var(--ltn__color-5);
+  text-decoration: underline;
+}
+
 /* --------------------------------------------------------------
 # Gutenberg	Default Style
 -------------------------------------------------------------- */
@@ -7250,7 +7255,6 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   margin-bottom: 20px;
 }
 .ltn__slide-item-2 .slide-title span.slide-span {
-  font-family: "HostGrotesk Regular" !important;
   font-size: 120px;
   font-weight: 400;
 }

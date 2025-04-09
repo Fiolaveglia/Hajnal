@@ -2924,6 +2924,12 @@ ul {
   text-decoration: underline;
 }
 
+h2.alimentos {
+  margin-top: 60px !important;
+  font-size: 42px;
+  color: var(--ltn__secondary-color);
+}
+
 /* --------------------------------------------------------------
 # Gutenberg	Default Style
 -------------------------------------------------------------- */

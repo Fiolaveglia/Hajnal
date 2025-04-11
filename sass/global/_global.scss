@@ -2177,3 +2177,8 @@ h2.alimentos{
     font-size: 42px;
     color: var(--ltn__secondary-color);
 }
+h5.history {
+    & :hover {
+        color: var(--border-color-5);
+    }
+}

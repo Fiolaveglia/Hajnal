@@ -2930,6 +2930,10 @@ h2.alimentos {
   color: var(--ltn__secondary-color);
 }
 
+h5.history :hover {
+  color: var(--border-color-5);
+}
+
 /* --------------------------------------------------------------
 # Gutenberg	Default Style
 -------------------------------------------------------------- */

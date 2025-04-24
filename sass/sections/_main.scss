@@ -4159,15 +4159,15 @@ input.cart-plus-minus-box {
 }
 
 /* ----------------------------------------------------
-    About Us Area
+    Commodities Area
 ---------------------------------------------------- */
-.about-us-img-wrap {
+.commodities-img-wrap {
     position: relative;
     img {
         margin: 0;
     }
 }
-.about-us-img-info {
+.commodities-img-info {
     width: 310px;
     height: 310px;
     background-color: var(--white);
@@ -4218,7 +4218,7 @@ input.cart-plus-minus-box {
         left: 12px;
     }
 }
-.about-us-img-info-2 {
+.commodities-img-info-2 {
     width: 190px;
     height: 190px;
     background-color: var(--ltn__secondary-color);
@@ -4244,7 +4244,7 @@ input.cart-plus-minus-box {
         color: var(--white);
     }
 }
-.about-us-img-info-3 {
+.commodities-img-info-3 {
     right: auto;
     left: 10px;
     border: 0;
@@ -4257,7 +4257,7 @@ input.cart-plus-minus-box {
         opacity: 0.1;
     }
 }
-.about-us-info-wrap {
+.commodities-info-wrap {
     position: relative;
     .btn-wrapper {
         margin-top: 40px;
@@ -4277,7 +4277,7 @@ input.cart-plus-minus-box {
         right: -100px;
     }
 }
-.about-us-info-devide {
+.commodities-info-devide {
     display: flex;
     .list-item-with-icon {
         margin-left: 30px;
@@ -4287,7 +4287,7 @@ input.cart-plus-minus-box {
 .list-item-with-icon {
     min-width: 300px;
 }
-.about-us-img-info-inner {
+.commodities-img-info-inner {
     width: 100%;
     height: 100%;
     display: flex;
@@ -4526,7 +4526,7 @@ input.cart-plus-minus-box {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .about-us-info-devide {
+    .commodities-info-devide {
         display: block;
         .list-item-with-icon {
            margin-left: 0;
@@ -4546,7 +4546,7 @@ input.cart-plus-minus-box {
         margin-left: 0;
         margin-bottom: 40px;
     }
-    .about-us-info-wrap {
+    .commodities-info-wrap {
         .ltn__video-play-btn {
             position: inherit;
             transform: inherit;
@@ -4558,7 +4558,7 @@ input.cart-plus-minus-box {
     .custom-content-brief {
         margin-bottom: 30px;
     }
-    .about-us-img-info {
+    .commodities-img-info {
         height: 200px;
         width: 220px;
         h1 {
@@ -4567,7 +4567,7 @@ input.cart-plus-minus-box {
             }
         }
     }
-    .about-us-img-info-2 {
+    .commodities-img-info-2 {
         width: 150px;
         height: 150px;
         h1 {
@@ -4576,7 +4576,7 @@ input.cart-plus-minus-box {
             }
         }
     }
-    .about-us-info-devide {
+    .commodities-info-devide {
         display: block;
         .list-item-with-icon {
            margin-left: 0;
@@ -5710,25 +5710,25 @@ input.cart-plus-minus-box {
 /* ----------------------------------------------------
     Team Details
 ---------------------------------------------------- */
-.ltn__team-details-member-info {
-    .team-details-img {
+.ltn__history-member-info {
+    .history-img {
         margin-bottom: 30px;
         max-width: 350px;
     }
     &.text-right {
-        .team-details-img {
+        .history-img {
             margin-left: auto;
             margin-right: 0;
         }
     }
     &.text-center {
-        .team-details-img {
+        .history-img {
             margin-left: auto;
             margin-right: auto;
         }
     }
 }
-.ltn__team-details-member-about {
+.ltn__history-member-about {
     ul {
         margin: 0;
         li {

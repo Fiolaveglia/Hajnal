@@ -14511,31 +14511,31 @@ input.cart-plus-minus-box {
 /* ----------------------------------------------------
     Team Details
 ---------------------------------------------------- */
-.ltn__team-details-member-info .team-details-img {
+.ltn__history-member-info .history-img {
   margin-bottom: 30px;
   max-width: 350px;
 }
-.ltn__team-details-member-info.text-right .team-details-img {
+.ltn__history-member-info.text-right .history-img {
   margin-left: auto;
   margin-right: 0;
 }
-.ltn__team-details-member-info.text-center .team-details-img {
+.ltn__history-member-info.text-center .history-img {
   margin-left: auto;
   margin-right: auto;
 }
 
-.ltn__team-details-member-about ul {
+.ltn__history-member-about ul {
   margin: 0;
 }
-.ltn__team-details-member-about ul li {
+.ltn__history-member-about ul li {
   list-style: none;
   display: block;
 }
-.ltn__team-details-member-about ul li strong {
+.ltn__history-member-about ul li strong {
   min-width: 120px;
   display: inline-block;
 }
-.ltn__team-details-member-about > ul {
+.ltn__history-member-about > ul {
   padding: 0;
 }
 
